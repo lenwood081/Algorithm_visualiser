@@ -1,0 +1,48 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main_container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex_row {
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.flex_column {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.algorithm_select {
+    background-color: aliceblue;
+    height: 100%;
+    width: 25%;
+}
+
+.algorithm_visual {
+    background-color: grey;
+    height: 70%;
+    width: 100%;
+}
+
+.algorithm_control {
+    background-color: darkgray;
+    height: 30%;
+    width: 100%;
+}
